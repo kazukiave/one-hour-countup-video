@@ -12,7 +12,8 @@ A simple 1-hour count-up timer video (HH:MM:SS), generated with ffmpeg.
 - 文字：白
 - 表示形式：HH:MM:SS（カウントアップ）
 - 解像度：1920x1080 / 30fps
-- 長さ：1時間
+- 長さ：1時間 or 30分
+- 再生時間との誤差：１秒いかない程度
 
 ---
 
