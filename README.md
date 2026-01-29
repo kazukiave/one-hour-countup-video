@@ -16,6 +16,13 @@ A simple 1-hour count-up timer video (HH:MM:SS), generated with ffmpeg.
 - 再生時間との誤差：１秒いかない程度
 
 ---
+--- 
+## ffmpeg がある人向け（生成コマンド） ### 1時間版（00:00:00 → 01:00:00）
+bash
+ffmpeg -f lavfi -i "color=c=black:s=1920x1080:r=30" -t 3600 \
+-vf "drawtext=fontfile=/System/Library/Fonts/Supplemental/Arial.ttf:fontsize=160:fontcolor=white:x=(w-text_w)/2:y=(h-text_h)/2:text='%{pts\:hms}'" \
+-c:v libx264 -pix_fmt yuv420p -movflags +faststart countup_60m.mp4
+---
 
 ## ダウンロード / Download
 
@@ -23,3 +30,5 @@ Google Drive からダウンロードできます：
 You can download it from Google Drive:
 
 [Google Drive フォルダ](https://drive.google.com/drive/folders/10SRCK4P1MjYgY6qbuw_6Ou6FQ326SPKw?usp=drive_link)
+
+
