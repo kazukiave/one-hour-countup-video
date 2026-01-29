@@ -22,5 +22,4 @@ A simple 1-hour count-up timer video (HH:MM:SS), generated with ffmpeg.
 Google Drive からダウンロードできます：  
 You can download it from Google Drive:
 
-```text
-https://drive.google.com/drive/folders/10SRCK4P1MjYgY6qbuw_6Ou6FQ326SPKw?usp=drive_link
+[Google Drive フォルダ](https://drive.google.com/drive/folders/10SRCK4P1MjYgY6qbuw_6Ou6FQ326SPKw?usp=drive_link)
