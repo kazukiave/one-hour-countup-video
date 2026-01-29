@@ -1,6 +1,6 @@
 # one-hour-countup-video
 
-## 1時間カウント（HH:MM:SS）動画 / 1-hour Count-up Timer Video (HH:MM:SS)
+## 1時間カウント（HH:MM:SS）動画 
 
 「**1時間を秒までカウントアップするだけ**」のシンプルな動画です（`00:00:00` → `01:00:00`）。
 
@@ -28,4 +28,7 @@ ffmpeg -f lavfi -i "color=c=black:s=1920x1080:r=30" -t 3600 \
   -c:v libx264 -pix_fmt yuv420p -movflags +faststart countup_1h.mp4
 ```
 
+---
+
+# Google Drive
 [Google Drive フォルダ] https://drive.google.com/drive/folders/10SRCK4P1MjYgY6qbuw_6Ou6FQ326SPKw?usp=drive_link
